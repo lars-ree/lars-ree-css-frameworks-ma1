@@ -24,14 +24,6 @@ body {
     color: $grey;
     height: 6rem;
 
-    &__link {
-        color: inherit;
-
-        &:hover {
-            color: $dark;
-            text-decoration: none;
-        }
-    }
 }
 
 @include media-breakpoint-up(sm) {
