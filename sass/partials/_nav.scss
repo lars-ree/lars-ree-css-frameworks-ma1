@@ -1,0 +1,18 @@
+.nav {
+    text-transform: uppercase;
+
+    &__logo {
+        color: $dark !important;
+        font-size: 36px;
+    }
+
+    &__link {
+        font-size: 18px;
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+}
+

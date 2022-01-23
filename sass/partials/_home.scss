@@ -1,0 +1,27 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    margin: 6rem 0;
+}
+
+.card {
+    padding-top: 100%;
+    background-color: $light;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.12);
+
+    &--border {
+        border: 3px solid $pink;
+        background-color: $white;
+    }
+
+    &--pink {
+        border: 3px solid $white;
+        background-color: $pink;
+    }
+}
+
+.container {
+    margin-bottom: 12rem;
+}
